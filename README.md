@@ -9,3 +9,9 @@ Not ready for public consumption.
 ![](/diagrams/nkisi-architecture.png)
 ![](/diagrams/nkisi-data-flow.png)
 
+##Installation
+```
+$ npm install
+$ gulp
+$ node server.js
+```
