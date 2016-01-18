@@ -1,7 +1,7 @@
 {
   "name": "nkisi",
   "version": "1.0.0",
-  "description": "React and flux microblogging platform",
+  "description": "Microblogging platform using React and Flux with Express and EJS.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
