@@ -1,4 +1,4 @@
-# nkisi
+# n'kisi
 
 (n-key-see)
 
