@@ -6,15 +6,12 @@ All command-line steps taken to create n'kisi.  Not something you will have to d
 $ mkdir nkisi
 $ cd nkisi
 $ npm init
-$ clear
 $ cat package.json
 $ nano package.json
 $ npm install gulp@3 --save-dev
 $ npm install gulp-browserify@0 --save-dev
 $ npm install reactify@1 --save-dev
 $ npm install gulp-plumber@1 --save-dev
-$ cat package.json
-$ nano package.json
 $ mkdir public/lib
 $ cd public/lib
 $ bower install skeleton
