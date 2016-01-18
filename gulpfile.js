@@ -12,5 +12,7 @@ gulp.task('browserify', function() {
 });
 
 gulp.task('default', ['browserify']);
+
+gulp.task('watch', function() {
   gulp.watch('src/**/*.*', ['default']);
 });
