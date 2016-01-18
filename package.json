@@ -15,8 +15,13 @@
     "gulp-plumber": "^1.0.1",
     "reactify": "^1.1.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raaum/nkisi.git"
+  },
   "dependencies": {
     "ejs": "^2.3.4",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "flux": "^2.0.3"
   }
 }
