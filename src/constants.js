@@ -20,6 +20,7 @@ module.exports = {
 };
 
 /*
+
 Constants Naming Conventions and Definitions
 
 - present tense occurs on front end
@@ -40,4 +41,5 @@ FOLLOW: when a user follows another user
 UNFOLLOW: when the follow has been saved on backend
 
 UNFOLLOWED:  when the unfollow has been saved on backend
+
 */
