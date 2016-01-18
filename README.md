@@ -1,8 +1,8 @@
 # n'kisi
 
-(n-key-see)
+N'kisi (n-key-see) is a Microblogging platform using React and Flux with Express and EJS.  
 
-Microblogging platform using React and Flux with Express and EJS.
+The name comes from an African grey parrot, named N'kisi, that is thought to exhibit advanced English talking skills and other abilities.
 
 Not ready for public consumption.
 
