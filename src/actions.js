@@ -1,7 +1,6 @@
 var dispatcher = require('./dispatcher');
 var constants = require('./constants');
 
-
 /*
 
 Instead of writing a function for each constant, we write 
@@ -30,10 +29,8 @@ Object.keys(constants).forEach(function (key) {
 
   exports[funcName] = function (data) {
     dispatcher.dispatch({
-    	actionType: constants[key],
-    	data: data
+      actionType: constants[key],
+      data: data
     });
   };
 });
-
-

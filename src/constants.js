@@ -1,11 +1,14 @@
 /*
+
 constants.js
 
-Use a set of constants to hold our actions.
+Uses a set of constants to hold our actions.
 
 Benefits:
+
 - see a list of all actions in one place
 - make it easier to debug if you mistype action names
+
 */
 
 module.exports = {

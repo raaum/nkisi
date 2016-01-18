@@ -1,15 +1,13 @@
 var express = require('express');
 
 /*
-Use the express server with EJS view engine
 
-EJS is a client-side templating language
+Use the Express Server and EJS view engine
 
-Serve requests for static files located in /public
+- Serve requests for static files located in '/public'
+- For all other requests serve 'index'
+- Listen on port 3333
 
-For all other request serve index
-
-Listen on port 3333
 */
 
 express()
