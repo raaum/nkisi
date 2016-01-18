@@ -25,7 +25,7 @@ Constants Naming Conventions and Definitions
 - present tense occurs on front end
 - past tense occurs on back end
 
-NIKIS: occurs when a user types a message and submits it on the frontend
+NIKISI: occurs when a user types a message and submits it on the frontend
 
 NKISIED: occurs when message is saved on backend
 
