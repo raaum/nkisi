@@ -10,3 +10,4 @@ of a new action so we can be aware of the activity
 dispatcher.register(function (action) {
   console.log(action);
 });
+
