@@ -26,4 +26,8 @@ $ mv public/index.html views/index.ejs
 $ gulp
 $ node server.js
 $ npm install flux@2.0.3 --save
+$ npm install object-assign@3 --save
+$ mkdir src/stores
 ```
+
+
