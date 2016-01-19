@@ -26,7 +26,7 @@ var storeMethods = {
     this.on(CHANGE_EVENT, fn);
   },
   removeChangeListener: function (fn) {
-  	this.removeListener(CHANGE_EVENT, fn);
+    this.removeListener(CHANGE_EVENT, fn);
   },
   emitChange: function () {
     this.emit(CHANGE_EVENT);
