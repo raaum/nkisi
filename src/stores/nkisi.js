@@ -3,7 +3,8 @@ var constants = require('../constants');
 
 /*
 
-Anything that should be specifically for the N'kisi store should go inside this object
+Anything that should be specifically for the N'kisi store 
+should go inside this object.
 
 - we want to override the default initilization function
 - we want the store to listen to specific actions in our system
