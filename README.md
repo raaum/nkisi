@@ -26,7 +26,7 @@ Uses a set of constants to hold our actions.
 
 ####Naming Conventions and Definitions
 - NIKISI: occurs when a user types a message and submits it on the frontend
-- NKISIED: occurs when message is saved on the backend
+- NKISIED: occurs when a message is saved on the backend
 - GOT_NKISI: occurs when messages from other users come in
 - GOT_CURRENT_USER: occurs when we get info about a logged in user
 - GOT_USERS: occurs when we get a list of users from the server
