@@ -1,7 +1,7 @@
 {
   "name": "nkisi",
   "version": "1.0.0",
-  "description": "Microblogging platform using React and Flux with Express and EJS.",
+  "description": "A microblogging platform using React for composable view components, Flux for unidirectional data flow, React Router for routing, Skeleton in lieu of Bootstrap for responsive boilerplate CSS, and a custom stores implementation.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
