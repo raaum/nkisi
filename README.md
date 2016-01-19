@@ -21,12 +21,10 @@ $ node server.js
 Uses a set of constants to hold our actions.
 
 Benefits:
-
 - see a list of all actions in one place
 - make it easier to debug if you mistype action names
 
-###Constants Naming Conventions and Definitions
-
+###Naming Conventions and Definitions
 - NIKISI: occurs when a user types a message and submits it on the frontend
 - NKISIED: occurs when message is saved on the backend
 - GOT_NKISI: occurs when messages from other users come in
@@ -40,7 +38,7 @@ Benefits:
 
 Instead of writing a function for each constant, we write one function to handle all.  If we add or remove constants later, we don't have to update our actions.
 
-pseudo function names:
+Pseudo function names:
 - nkisi
 - nkisied
 - gotNkisi
