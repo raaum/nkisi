@@ -39,6 +39,7 @@ $ npm install moment@2.11 --save
 $ npm install crypto@0.0.3 --save
 $ npm install passport@0 --save
 $ npm install passport-local@1 --save
+$ npm install through2@2 --save-dev
 $ npm install babelify@7.2 --save-dev
 
 ```

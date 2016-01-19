@@ -1,6 +1,6 @@
-var assign                        = require('object-assign');
+var assign             = require('object-assign');
 var EventEmitterProto  = require('events').EventEmitter.prototype;
-var CHANGE_EVENT      = 'CHANGE';
+var CHANGE_EVENT       = 'CHANGE';
 
 var storeMethods = {
   init: function() {},
