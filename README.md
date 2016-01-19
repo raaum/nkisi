@@ -20,7 +20,7 @@ $ node server.js
 
 Uses a set of constants to hold our actions.
 
-Benefits:
+####Benefits:
 - see a list of all actions in one place
 - make it easier to debug if you mistype action names
 
@@ -38,7 +38,7 @@ Benefits:
 
 Instead of writing a function for each constant, we write one function to handle all.  If we add or remove constants later, we don't have to update our actions.
 
-Pseudo function names:
+####Pseudo function names:
 - nkisi
 - nkisied
 - gotNkisi
@@ -56,6 +56,7 @@ Logs dispatcher activity to the console upon receipt of new actions so we can be
 
 Contains a list of methods that trigger change events.
 
+####Methods:
 - init
 - set
 - add
@@ -75,7 +76,7 @@ this method so they can create their own stores.
 
 Anything that should be specifically for the N'kisi store should go inside this object.
 
-Reasoning:
+####Reasons:
 - we want to override the default initilization function
 - we want the store to listen to specific actions in our system
 - we can do that through this.bind
