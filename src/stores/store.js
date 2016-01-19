@@ -1,5 +1,5 @@
-var assign            = require('object-assign');
-var EventEmitterProto = require('event').EventEmitter.prototype;
+var assign                        = require('object-assign');
+var EventEmitterProto  = require('events').EventEmitter.prototype;
 var CHANGE_EVENT      = 'CHANGE';
 
 var storeMethods = {
@@ -10,6 +10,9 @@ var storeMethods = {
     arr.filter(function (item) {
       return currIds.indexOf(item.cid) === -1;
     }).forEach(this.add.bind(this));
+
+    console.log('Data set');
+    console.log(this._data);
   },
   add: function (item) {
     this._data.push(item);

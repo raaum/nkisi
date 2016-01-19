@@ -1,11 +1,6 @@
-var events = require('events');
-console.log('hello world');
-console.log(events);
+var React       = require('react');
+var ReactRouter = require('react-router');
+var API         = require("./api");
+var NkisiStore  = require('./stores/nkisi');
 
-var actions = require('./actions');
-
-Object.keys(actions).forEach(function(key) {
- console.log(key);
- console.log(actions[key].toString());
-});
-
+API.fetchNkisi();
