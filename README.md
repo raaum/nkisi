@@ -24,7 +24,7 @@ Benefits:
 - see a list of all actions in one place
 - make it easier to debug if you mistype action names
 
-###Naming Conventions and Definitions
+####Naming Conventions and Definitions
 - NIKISI: occurs when a user types a message and submits it on the frontend
 - NKISIED: occurs when message is saved on the backend
 - GOT_NKISI: occurs when messages from other users come in
@@ -51,6 +51,25 @@ Pseudo function names:
 ##Dispatcher
 
 Logs dispatcher activity to the console upon receipt of new actions so we can be aware of the activity.
+
+##Stores
+
+Contains a list of methods that trigger change events.
+
+- init
+- set
+- add
+- all
+- get
+- addChangeListener
+- removeChangeListener
+- emitChange
+- bind
+
+####The Extend Method
+
+Reason: when someone requires, they'll have an object with 
+this method so they can create their own stores.
 
 ##The NkisiStore Object
 

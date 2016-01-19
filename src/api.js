@@ -8,7 +8,6 @@ var API = module.exports = {
 
 function get(url) {
   return fetch(url, {
-  	// so the server knows the user is logged in
     credentials: 'same-origin'
   }).then(function (res) {
       return res.json();

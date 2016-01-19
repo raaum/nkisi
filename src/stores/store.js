@@ -46,14 +46,6 @@ var storeMethods = {
   }
 };
 
-/*
-
-Create extend method
-
-Reason: when someone requires, they'll have an object with 
-this method so they can create their own stores.
-
-*/
 
 exports.extend = function (methods) {
 
