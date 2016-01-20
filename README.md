@@ -10,7 +10,7 @@ Not ready for public consumption. Much left to do.
 ![](/diagrams/nkisi-data-flow.png)
 
 ##Installation
-```
+```shell
 $ npm install
 $ gulp
 $ node server.js
