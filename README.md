@@ -1,6 +1,6 @@
 # n'kisi
 
-N'kisi (in-key-see) is a microblogging platform using React for composable view components, Flux for unidirectional data flow, React Router for routing, Skeleton in lieu of Bootstrap for responsive boilerplate CSS, and a custom stores implementation.  
+N'kisi (in-key-see) is a modern microblogging framework using React for composable view components, Flux for unidirectional data flow, React Router for routing, Skeleton in lieu of Bootstrap for responsive boilerplate CSS, and a custom stores implementation.  
 
 The name comes from an African grey parrot, named N'kisi, that is thought to exhibit advanced English talking skills and other abilities.  N'kisi has a vocabulary of 950 words and can 'communicate' (as opposed to repeat).
 
