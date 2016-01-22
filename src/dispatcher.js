@@ -1,4 +1,4 @@
-var flux             = require('flux');
+var flux = require('flux');
 var dispatcher = module.exports = new flux.Dispatcher();
 
 dispatcher.register(function (action) {
