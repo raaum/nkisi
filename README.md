@@ -6,6 +6,10 @@ The name comes from an African grey parrot, named N'kisi, that is thought to exh
 
 Not ready for public consumption. Much left to do.
 
+##Screenshot
+![](/screenshots/login.png)
+
+##Architecture
 ![](/diagrams/nkisi-architecture.png)
 ![](/diagrams/nkisi-data-flow.png)
 
