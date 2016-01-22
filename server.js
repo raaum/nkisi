@@ -1,4 +1,5 @@
-var express = require('express');
+var express  = require('express');
+var login    = require('./login');
 
 /*
 
@@ -13,7 +14,10 @@ Use the Express Server and EJS view engine
 express()
   .set('view engine', 'ejs')
   .use(express.static('./public'))
-  .get('*', function(req, res) {
-    res.render('index');
+  .use(login.routes)
+  .get('*', login.required, function (req, res) {
+    res.render('index', {
+    	user: login.safe(req.user)
+    });
   })
   .listen(3333);
