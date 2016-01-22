@@ -22,11 +22,12 @@
     "url": "git://github.com/raaum/nkisi.git"
   },
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "cookie-parser": "^1.4.1",
+    "body-parser": "^1.13.2",
+    "cookie-parser": "^1.1.0",
     "crypto": "0.0.3",
     "ejs": "^2.3.2",
     "express": "^4.13.0",
+    "express-session": "^1.11.3",
     "flux": "^2.0.3",
     "locallydb": "0.0.9",
     "moment": "^2.11.1",
