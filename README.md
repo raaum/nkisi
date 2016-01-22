@@ -10,8 +10,8 @@ Not ready for public consumption. Much left to do.
 ![](/screenshots/login.png)
 
 ##Architecture
-![](/diagrams/nkisi-architecture.png)
-![](/diagrams/nkisi-data-flow.png)
+![](/diagrams/nkisi-architecture-sm.png)
+![](/diagrams/nkisi-data-flow-sm.png)
 
 ##Installation
 ```shell
