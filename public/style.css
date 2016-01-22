@@ -1,0 +1,89 @@
+body {
+	font-size: 1.5em;
+	line-height: 1.6;
+	font-weight: 400;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	margin-top: 20px;
+}
+
+
+
+.button, 
+button, 
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"] {
+  color: #fff;
+  background-color: #ed8621;
+  border-color: #ed8621;
+  display: inline-block;
+  height: 44px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.button:hover, 
+button:hover, 
+input[type="submit"]:hover, 
+input[type="reset"]:hover, 
+input[type="button"]:hover {
+  background-color: #d97a1e;
+  border-color: #d97a1e;
+}
+
+.button.button-primary, 
+button.button-primary, 
+input[type="submit"].button-primary, 
+input[type="reset"].button-primary, 
+input[type="button"].button-primary {
+  color: #fff;
+  background-color: #ed8621;
+  border-color: #ed8621;
+}
+
+.button.button-primary:hover, 
+button.button-primary:hover, 
+input[type="submit"].button-primary:hover, 
+input[type="reset"].button-primary:hover, 
+input[type="button"].button-primary:hover {
+  background-color: #d97a1e;
+  border-color: #d97a1e;
+}
+
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="text"], 
+input[type="tel"], 
+input[type="url"], 
+input[type="password"], 
+textarea, 
+select {
+	height: 44px;
+	padding: 6px 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: none;
+	box-sizing: border-box;
+	font-size: 1.3em;
+}
+
+input, textarea, select, fieldset {
+  margin-bottom: 1rem;
+  line-height: 1em;
+}
